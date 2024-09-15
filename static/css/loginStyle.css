@@ -1,0 +1,166 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Background Styling */
+.main_bg {
+    background-image: url('bg1.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Welcome Section */
+.Welcomeback_sec {
+    color: rgb(255, 255, 255);
+    margin-top: 10vh;
+    margin-left: 5vw;
+}
+
+.welcomesec_1h {
+    font-size: 3rem;
+}
+
+.welcomesec_1p {
+    margin-top: 1rem;
+    width: 90%;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.c_points {
+    line-height: 2rem;
+}
+
+.welcome_2sec {
+    margin-top: 2rem;
+}
+
+.welcome_2sec > p {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.welcome_2sec > button {
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 50px;
+    border-color: #FFB300;
+    font-size: 1rem;
+    background-image: url('button_bg.png');
+    color: white;
+    font-family: firacode;
+    margin: 0.5rem;
+}
+
+/* Form Styling */
+.form_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.form {
+    color: white;
+    width: 100%;
+    margin-top: 7vh;
+    max-width: 600px;
+}
+
+.form_heading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.form_sub {
+    border: 1px solid white;
+    padding: 2rem;
+    border-radius: 30px;
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+}
+
+.form_name, .form_email, .form_password, .form_role {
+    margin-top: 1rem;
+}
+
+.form_ipt_role {
+    border-color: #FFB300;
+    /* background-color: rgb(26, 26, 26); */
+    /* color: white; */
+}
+
+.login-btn{
+    background-image: url(./button_bg.png);
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .Welcomeback_sec {
+        margin-left: 2vw;
+    }
+}
+
+@media (max-width: 992px) {
+    .welcomesec_1h {
+        font-size: 2.5rem;
+    }
+
+    .welcomesec_1p {
+        font-size: 0.9rem;
+    }
+
+    .welcome_2sec > p {
+        font-size: 1.2rem;
+    }
+
+    .welcome_2sec > button {
+        font-size: 0.9rem;
+    }
+
+    .form_heading {
+        font-size: 1.5rem;
+    }
+
+    .form_sub {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .Welcomeback_sec {
+        margin-top: 5vh;
+    }
+
+    .form_area {
+        padding: 1rem;
+    }
+
+    .form_name, .form_email, .form_password, .form_role {
+        width: 100%;
+    }
+
+    .loginbtn {
+        width: 100%;
+        max-width: none;
+        margin-top: 2rem;
+    }
+
+    /* Background Styling */
+.main_bg {
+    background-image: url('bg1.jpg');
+    height: 200vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+}

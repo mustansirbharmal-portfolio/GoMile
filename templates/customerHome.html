@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@400;500&family=Roboto&display=swap"
+    rel="stylesheet">
+
+    
+
+  <title>GoMile</title>
+
+  <!-- Custom fonts for this template-->
+
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@400;500&family=Roboto&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="static/css/style.css">
+
+  <style>
+    .darkMode{
+      background-color: black;
+      color:#fff;
+    }
+
+    .darkModeSecondnary{
+      background-color: black;
+      color:#247FFC;
+    }
+
+    .normal{
+      background-color: #fff;
+      color:#247FFC;
+    }
+
+    .darkModeColor{
+      color: #247FFC;
+    }
+
+
+    .darkModeColorWhite{
+      color: #fff;
+    }
+
+    .darkModeColorBlack{
+      color: #000;
+    }
+
+  </style>
+
+  
+
+  </head>
+
+<body class="" id="main">
+
+  <!-- Navbar-->
+  <section >
+    <nav id="" class="navbar navbar-expand-lg nav-bar " style=" background-size: cover; ">
+
+      <div class="container-fluid" id="navContain">
+
+        <a class="navbar-brand " href="#">
+          GoMile
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars-staggered" style="color:#fff;"></i>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active list mx-2 text-dark" aria-current="page" href="/mainPage">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link list mx-2 text-dark" href="/agencyList">Agencies</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link list mx-2 text-dark" href="/driversList">Drivers</a>
+            </li>
+
+            <!-- <li class="nav-item">
+              <a class="nav-link list mx-2 text-dark" href="#contact">Contact Us</a>
+            </li> -->
+
+            <li class="nav-item">
+              <a class="nav-link login logoutBtn" href="/logout">Logout</a>
+            </li>
+<!-- 
+            <li class="nav-item">
+              <a class="nav-link registration " href="register.html">Register</a>
+            </li> -->
+
+            <li class="nav-item hidden2" style="display: none;" >
+              <a class="nav-link dark-mode " id="toggleLink" href="" ><i class="fa-solid fa-moon " class="toggleIcon" id="toggleIcon2"></i></a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <section class="banner banner5 home "  id="home">
+    <div id="hero">
+    <div class="container" >
+      <div class="row">
+
+
+        <div class="col-md-6 col-lg-6 col-xl-6 banner-text banner-text2">
+          <h1 class="banner-heading">Welcome to GoMile</h1>
+          <p class="banner-para">Your One Stop solution for your intercity and round trip problems </p>
+          <a href="register.html" style="display: inline-block;" target="_blank" class="btn btn-primary banner-btn register-btn mb-5">Register Now</a>
+         
+            <a class="nav-link dark-mode"  id="toggleLink2" href="" ><i class="fa-solid fa-moon " class="toggleIcon" id="toggleIcon"></i></a>
+       
+
+        </div>
+
+        <div class="col-md-6 col-lg-6 col-xl-6  ">
+          <img src="static/img/banner16.1.jpg" alt="" class="img-fluid banner-img mb-5 mt-3 pt-5"
+            style="height:500px; width:800px;">
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2 class="about-heading">Top Travel Agencies Panel</h2>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-12 col-md-12">
+          <p class="about-para" style="text-align: center;">
+            At GoMile, you are able to access trusted and verified Tours and Travels Agencies, at our platform you are able to book car on per kilometer pricing.
+          </p>
+
+          <button style="padding:1rem; border-radius: 10px; background-color: #FFB300; font-weight: bold; border-color: #fff; margin: auto; display: flex; justify-content: center;">Go to Travel Agency</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2 class="about-heading">Top Drivers</h2>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-12 col-md-12">
+          <p class="about-para" style="text-align: center;">
+            At GoMile, you are able to access trusted and verified Drivers, across different districts.
+          </p>
+
+          <button style="padding:1rem; border-radius: 10px; background-color: #FFB300; font-weight: bold; border-color: #fff; margin: auto; display: flex; justify-content: center;">Go to Drivers Panel</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Section
+  <section class="project_wrapper category" id="category">
+    <div class="container text-center ">
+
+      <div class="section-body row " style="min-height: 800px;">
+
+        <div class="col-sm-12 col-lg-12 col-md-12 section-header d-flex flex-column justify-content-center  mb-2 ">
+
+          <h3 class="title third-header-title mt-5" id="header-category" style="  font-weight: bold; font-size: 3rem; ">CATEGORIES
+          </h3>
+
+        </div>
+
+        <div class="col-12 ">
+          <ul class="nav category-list mb-4  mt-5 filter " id="pills-tab" role="tablist">
+
+            <li class="nav-item " role="presentation">
+              <button class="nav-link active colorBtn1 filter-btn" id="pills-one-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-one" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                ALL
+              </button>
+            </li>
+
+            <li class="nav-item hidden" role="presentation">
+              <button class="nav-link filter-btn colorBtn2" id="pills-two-tab" data-bs-toggle="pill" data-bs-target="#pills-two"
+                type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                Literature
+              </button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+              <button class="nav-link filter-btn colorBtn3" id="pills-four-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-three" type="button" role="tab" aria-controls="pills-contact"
+                aria-selected="false">
+                Economics
+              </button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+              <button class="nav-link filter-btn colorBtn4" id="pills-four-tab" data-bs-toggle="pill" data-bs-target="#pills-four"
+                type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                Business and Finance
+              </button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+              <button class="nav-link filter-btn colorBtn5" id="pills-four-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-fivee" type="button" role="tab" aria-controls="pills-contact"
+                aria-selected="false">
+                Health and Wellness
+              </button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+              <button class="nav-link filter-btn colorBtn6" id="pills-four-tab" data-bs-toggle="pill" data-bs-target="#pills-six"
+                type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                Travel
+              </button>
+            </li>
+
+          </ul>
+
+          <div class="tab-content head" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-one" role="tabpanel" aria-labelledby="pills-one-tab">
+
+              <div class="row">
+                <div class="col-lg-4 col-sm-6 mt-5">
+                  <div class="project-img">
+
+                    <img src="img/lit1.jpg" class="img-fluid w-100 " style="height:300px;">
+
+                    <div class="overlay2">
+                      <a href="https://www.amazon.in/Great-Gatsby-Annotated-Scott-Fitzgerald-ebook/dp/B01L2T0AOS/ref=sr_1_14?adgrpid=74077281111&ext_vrnc=hi&gclid=CjwKCAiA7t6sBhAiEiwAsaieYt5rT7PU2e4_-0N4lh7RVrhyWzEZDG4vH0tVYUlKTkVYqy62P9_qEBoC9DsQAvD_BwE&hvadid=590513123990&hvdev=c&hvlocphy=9145612&hvnetw=g&hvqmt=e&hvrand=8541902819622435494&hvtargid=kwd-932260789136&hydadcr=15701_2267224&keywords=great+gatsby+book+amazon&qid=1704456068&sr=8-14"
+                        target="_blank">
+                        <i class="fa-solid fa-plus"></i> </a>
+                    </div>
+                  </div>
+
+                  <h5 class="mb-0 mt-4">The Great Gatsby</h5>
+                  <p class="project-text">Author F. Scott Fitzgerald</p>
+
+                </div>
+
+
+                <div class="col-lg-4 col-sm-6 mt-5">
+                  <div class="project-img">
+
+                    <img src="img/lit2.jpeg" alt="" class="img-fluid w-100" style="height:300px;">
+
+                    <div class="overlay2">
+                      <a href="https://www.goodreads.com/book/show/1934.Little_Women" target="_blank">
+                        <i class="fa-solid fa-plus"></i> </a>
+                    </div>
+                  </div>
+
+                  <h5 class="mb-0 mt-4">Little Women</h5>
+                  <p class="project-text">Author Louisa May Alcott</p>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 mt-5">
+                  <div class="project-img">
+                    <img src="img/ec1.png" alt="" class="img-fluid w-100" style="height:300px;">
+                    <div class="overlay2">
+
+                      <a href="https://www.amazon.in/Wealth-Nations-Wordsworth-Classics-Literature/dp/1840226889/ref=sr_1_14?crid=2DZI6NAZCHGOU&keywords=the+wealth+of+nations+book+amazon&qid=1704456319&sprefix=the+wealth+of+nation+book+amazon%2Caps%2C263&sr=8-14"
+                        target="_blank">
+                        <i class="fa-solid fa-plus"></i> </a>
+                    </div>
+
+                  </div>
+
+                  <h5 class="mb-0 mt-4">The Wealth of Nations</h5>
+                  <p class="project-text">Author Adam Smith</p>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 mt-5">
+                  <div class="project-img">
+                    <img src="img/ec2.jpeg" alt="" class="img-fluid w-100" style="height:300px;">
+                    <div class="overlay2">
+
+                      <a href="https://www.amazon.in/Freakonomics-Economist-Explores-Hidden-Everything/dp/0062312677"
+                        target="_blank">
+                        <i class="fa-solid fa-plus"></i> </a>
+                    </div>
+
+                  </div>
+                  <h5 class="mb-0 mt-4">Freakonomics</h5>
+                  <p class="project-text">Author Steven Levitt</p>
+                </div>
+
+                <div class="col-lg-4 col-sm-6  mt-5">
+                  <div class="project-img">
+
+                    <img src="img/b1.jpeg" class="img-fluid w-100 mt-4" style="height:300px;">
+
+                    <div class="overlay2">
+                      <a href="https://www.amazon.in/Rich-Dad-Poor-Middle-Anniversary/dp/1612681131" target="_blank">
+                        <i class="fa-solid fa-plus"></i></a>
+
+                    </div>
+                  </div>
+
+                  <h5 class="mb-0 mt-4">Rich Dad Poor Dad</h5>
+                  <p class="project-text">Robert Kiyosaki</p>
+
+                </div>
+
+                <div class="col-lg-4 col-sm-6 mt-5">
+                  <div class="project-img">
+
+                    <img src="img/b2.jpeg" class="img-fluid w-100 mt-4" style="height:300px;">
+
+                    <div class="overlay2">
+                      <a href="https://www.amazon.in/Think-Grow-Rich-Napoleon-Hill/dp/9353338158/ref=sr_1_1_sspa?adgrpid=58947762935&ext_vrnc=hi&gclid=CjwKCAiA7t6sBhAiEiwAsaieYqFR-4KWHq8w5BvZW8SRlOcnvF6p9Bk-WjBx-p9IlT84cbIPUm8b2hoCE68QAvD_BwE&hvadid=590392690272&hvdev=c&hvlocphy=9145612&hvnetw=g&hvqmt=e&hvrand=17730092573257339578&hvtargid=kwd-320328572541&hydadcr=16733_2163935&keywords=think+and+grow+rich+amazon&qid=1704456830&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"
+                        target="_blank">
+                        <i class="fa-solid fa-plus"></i>
+                      </a>
+                    </div>
+                  </div>
+
+                  <h5 class="mb-0 mt-4">Think and Grow Rich</h5>
+                  <p class="project-text">Napoleon Hill</p>
+
+                </div>
+
+                <div class="col-lg-4 col-sm-6 mt-5">
+                  <div class="project-img">
+                    <img src="img/h1.jpeg" alt="" class="img-fluid w-100" style="height:300px;">
+                    <div class="overlay2">
+
+                      <a href="https://www.amazon.in/Why-We-Sleep-Matthew-Walker/dp/0141983760" target="_blank">
+                        <i class="fa-solid fa-plus"></i> </a>
+                    </div>
+
+                  </div>
+                  <h5 class="mb-0 mt-4">Why We Sleep</h5>
+                  <p class="project-text">Matthew Walker</p>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 mt-5">
+                  <div class="project-img">
+                    <img src="img/h2.jpeg" alt="" class="img-fluid w-100" style="height:300px;">
+                    <div class="overlay2">
+
+                      <a href="https://www.amazon.in/How-Not-Die-Discover-Scientifically/dp/1250066115" target="_blank">
+                        <i class="fa-solid fa-plus"></i> </a>
+                    </div>
+
+                  </div>
+                  <h5 class="mb-0 mt-4">How Not to Die</h5>
+                  <p class="project-text">Gene Stone</p>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 mt-4">
+                  <div class="project-img">
+
+                    <img src="img/t1.jpeg" class="img-fluid w-100 mt-4" style="height:300px;">
+
+                    <div class="overlay2 ">
+                      <a href="https://www.amazon.in/Art-Travel-Vintage-International/dp/0375725342" target="_blank">
+                        <i class="fa-solid fa-plus"></i> </a>
+                    </div>
+                  </div>
+
+                  <h5 class="mb-0 mt-4">
+                    The Art of Travel</h5>
+                  <p class="project-text">Alain de Botton</p>
+
+                </div>
+
+                <div class="col-lg-4 col-sm-6 mt-5">
+                  <div class="project-img">
+
+                    <img src="img/t2.jpeg  " class="img-fluid w-100" style="height:300px;">
+
+                    <div class="overlay2">
+                      <a href="https://amazon.in/Blue-Highways-William-Least-Heat-Moon/dp/0316353299" target="_blank">
+                        <i class="fa-solid fa-plus"></i> </a>
+                    </div>
+                  </div>
+
+                  <h5 class="mb-0 mt-4">Blue Highways</h5>
+                  <p class="project-text" style="margin-bottom: 5rem;">William Least Heat-Moon</p>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="pills-two" aria-labelledby="pills-two-tab" tabindex="0">
+
+              <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                  <div class="project-img">
+
+                    <img src="img/lit1.jpg" class="img-fluid w-100 " style="height:300px;">
+
+                    <div class="overlay2">
+                      <a href="https://www.amazon.in/Great-Gatsby-Annotated-Scott-Fitzgerald-ebook/dp/B01L2T0AOS/ref=sr_1_14?adgrpid=74077281111&ext_vrnc=hi&gclid=CjwKCAiA7t6sBhAiEiwAsaieYt5rT7PU2e4_-0N4lh7RVrhyWzEZDG4vH0tVYUlKTkVYqy62P9_qEBoC9DsQAvD_BwE&hvadid=590513123990&hvdev=c&hvlocphy=9145612&hvnetw=g&hvqmt=e&hvrand=8541902819622435494&hvtargid=kwd-932260789136&hydadcr=15701_2267224&keywords=great+gatsby+book+amazon&qid=1704456068&sr=8-14 "
+                        target="_blank">
+                        <i class="fa-solid fa-plus"></i> </a>
+                    </div>
+                  </div>
+
+                  <h5 class="mb-0 mt-4">The Great Gatsby</h5>
+                  <p class="project-text">Author F. Scott Fitzgerald</p>
+
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                  <div class="project-img">
+
+                    <img src="img/lit2.jpeg" alt="" class="img-fluid w-100" style="height:300px;">
+
+                    <div class="overlay2">
+                      <a href="https://www.goodreads.com/book/show/1934.Little_Women" target="_blank">
+                        <i class="fa-solid fa-plus"></i> </a>
+                    </div>
+                  </div>
+
+                  <h5 class="mb-0 mt-4">Little Women</h5>
+                  <p class="project-text">Author Louisa May Alcott</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="pills-three" role="tabpanel" aria-labelledby="pills-three-tab" tabindex="0">
+              <div class="row">
+
+
+                <div class="col-lg-4 col-sm-6">
+                  <div class="project-img">
+                    <img src="img/ec1.png" alt="" class="img-fluid w-100" style="height:300px;">
+                    <div class="overlay2">
+
+                      <a href="https://www.amazon.in/Wealth-Nations-Wordsworth-Classics-Literature/dp/1840226889/ref=sr_1_14?crid=2DZI6NAZCHGOU&keywords=the+wealth+of+nations+book+amazon&qid=1704456319&sprefix=the+wealth+of+nation+book+amazon%2Caps%2C263&sr=8-14"
+                        target="_blank">
+                        <i class="fa-solid fa-plus"></i> </a>
+                    </div>
+
+                  </div>
+                  <h5 class="mb-0 mt-4">The Wealth of Nations</h5>
+                  <p class="project-text">Author Adam Smith</p>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                  <div class="project-img">
+                    <img src="img/ec2.jpeg" alt="" class="img-fluid w-100" style="height:300px;">
+                    <div class="overlay2">
+
+                      <a href="https://www.amazon.in/Freakonomics-Economist-Explores-Hidden-Everything/dp/0062312677"
+                        target="_blank">
+                        <i class="fa-solid fa-plus"></i> </a>
+                    </div>
+
+                  </div>
+                  <h5 class="mb-0 mt-4">Freakonomics</h5>
+                  <p class="project-text">Author Steven Levitt</p>
+                </div>
+
+
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="pills-four" role="tabpanel" aria-labelledby="pills-four-tab" tabindex="0">
+              <div class="row">
+
+                <div class="col-lg-4 col-sm-6">
+                  <div class="project-img">
+
+                    <img src="img/b1.jpeg" class="img-fluid w-100" style="height:400px;">
+
+                    <div class="overlay2">
+                      <a href="https://www.amazon.in/Rich-Dad-Poor-Middle-Anniversary/dp/1612681131" target="_blank">
+                        <i class="fa-solid fa-plus"></i></a>
+                    </div>
+                  </div>
+
+                  <h5 class="mb-0 mt-4">Rich Dad Poor Dad</h5>
+                  <p class="project-text">Robert Kiyosaki</p>
+
+                </div>
+
+
+
+                <div class="col-lg-4 col-sm-6">
+                  <div class="project-img">
+
+                    <img src="img/b2.jpeg" class="img-fluid w-100" style="height:400px;">
+
+                    <div class="overlay2">
+                      <a href="https://www.amazon.in/Think-Grow-Rich-Napoleon-Hill/dp/9353338158/ref=sr_1_1_sspa?adgrpid=58947762935&ext_vrnc=hi&gclid=CjwKCAiA7t6sBhAiEiwAsaieYqFR-4KWHq8w5BvZW8SRlOcnvF6p9Bk-WjBx-p9IlT84cbIPUm8b2hoCE68QAvD_BwE&hvadid=590392690272&hvdev=c&hvlocphy=9145612&hvnetw=g&hvqmt=e&hvrand=17730092573257339578&hvtargid=kwd-320328572541&hydadcr=16733_2163935&keywords=think+and+grow+rich+amazon&qid=1704456830&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"
+                        target="_blank">
+                        <i class="fa-solid fa-plus"></i>
+                      </a>
+                    </div>
+                  </div>
+
+                  <h5 class="mb-0 mt-4">Think and Grow Rich</h5>
+                  <p class="project-text">Napoleon Hill</p>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="pills-fivee" role="tabpanel" aria-labelledby="pills-three-tab" tabindex="0">
+              <div class="row">
+
+
+                <div class="col-lg-4 col-sm-6">
+                  <div class="project-img">
+                    <img src="img/h1.jpeg" alt="" class="img-fluid w-100" style="height:300px;">
+                    <div class="overlay2">
+
+                      <a href="https://www.amazon.in/Why-We-Sleep-Matthew-Walker/dp/0141983760" target="_blank">
+                        <i class="fa-solid fa-plus"></i> </a>
+                    </div>
+
+                  </div>
+                  <h5 class="mb-0 mt-4">Why We Sleep</h5>
+                  <p class="project-text">Matthew Walker</p>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                  <div class="project-img">
+                    <img src="img/h2.jpeg" alt="" class="img-fluid w-100" style="height:300px;">
+                    <div class="overlay2">
+
+                      <a href="https://www.amazon.in/How-Not-Die-Discover-Scientifically/dp/1250066115" target="_blank">
+                        <i class="fa-solid fa-plus"></i> </a>
+                    </div>
+
+                  </div>
+                  <h5 class="mb-0 mt-4">How Not to Die</h5>
+                  <p class="project-text">Gene Stone</p>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="pills-six" role="tabpanel" aria-labelledby="pills-four-tab" tabindex="0">
+              <div class="row">
+
+                <div class="col-lg-4 col-sm-6">
+                  <div class="project-img">
+
+                    <img src="img/t1.jpeg" class="img-fluid w-100" style="height:400px;">
+
+                    <div class="overlay2">
+                      <a href="https://www.amazon.in/Art-Travel-Vintage-International/dp/0375725342" target="_blank">
+                        <i class="fa-solid fa-plus"></i> </a>
+                    </div>
+                  </div>
+
+                  <h5 class="mb-0 mt-4">
+                    The Art of Travel</h5>
+                  <p class="project-text">Alain de Botton</p>
+
+                </div>
+
+
+                <div class="col-lg-4 col-sm-6">
+                  <div class="project-img">
+
+                    <img src="img/t2.jpeg  " class="img-fluid w-100" style="height:400px;">
+
+                    <div class="overlay2">
+                      <a href="https://www.amazon.in/Blue-Highways-William-Least-Heat-Moon/dp/0316353299"
+                        target="_blank">
+                        <i class="fa-solid fa-plus"></i> </a>
+                    </div>
+                  </div>
+
+                  <h5 class="mb-0 mt-4">Blue Highways</h5>
+                  <p class="project-text">William Least Heat-Moon</p>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+    </div>
+  </section> -->
+
+
+
+
+  <!-- <div class="conatiner-fluid services"  id="services">
+    <div class="row service-extend">
+      <h2 class="service-headingg text-center  ">SERVICES</h2>
+
+      <div class="card-group justify-content-evenly">
+        <div class="col-md-5 col-lg-3 col-sm-12  col-xl-3  card-style">
+
+          <div class="card" style="width: 18rem;">
+            <img src="img/secure2.jpg" class="card-img-top service1" style="height:200px;" alt="...">
+            <div class="card-body card-body1">
+              <h5 class="card-title">All Books at One Place</h5>
+              <p class="card-text">Our store has every books which are in the market, and you can see all of them in our
+                GoMile Website</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3 col-sm-12 col-xl-3 card-style">
+          <div class="card" style="width: 18rem;">
+            <img src="img/service2.jpg" class="card-img-top" alt="...">
+            <div class="card-body card-body2">
+              <h5 class="card-title">Secure</h5>
+              <p class="card-text">We protect our customers data by implementing strong and up-to-date security
+                techniques</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3 col-sm-12 col-xl-3 card-style card-style-3">
+          <div class="card" style="width: 18rem;">
+            <img src="img/service3.jpg" class="card-img-top" alt="...">
+            <div class="card-body card-body3">
+              <h5 class="card-title">Purchase Online</h5>
+              <p class="card-text">By using our platform, you can your desired book from our GoMile Website</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div> -->
+
+  <section id="form" class="rounded">
+    <div class="container" id="contact">
+      <h1 class="title contact-heading text-center " id="con">CONTACT</h1>
+      <div class="row justify-content-evenly  mt-3 ms-1 ">
+        <div class="col-md-5 me-auto">
+
+          <form method="post">
+            <div class="mb-3 top1">
+              <label for="exampleInputEmail1" class="form-label form-label1">Name</label>
+              <input type="text" class="form-control" name="NAME" class="mb-5">
+
+              <div class="mb-4 mt-3">
+                <label for="exampleInputNumber1" class="form-label form-label2 mt-3  ">Phone no</label>
+                <input type="tel" class="form-control" name="Number">
+              </div>
+
+              <label for="exampleInputEmail1" class="form-label form-label3 mt-2">Email address</label>
+              <input type="email" class="form-control" name="Email">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+
+            <div class="mb-3 mt-4">
+              <label for="exampleFormControlTextarea1" class="form-label form-label4">Message</label>
+              <textarea name="Message" class="form-control" id="exampleFormControlTextarea1" rows="5"
+                cols="10"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary mb-5 "
+              style="background-color: #fff; color:#000; background-color: #FFB300; border-radius: 15px; font-weight: 600; font-size: 1.2rem; margin-top: 2rem;">Submit</button>
+          </form>
+        </div>
+
+        <div class="col-md-5  ">
+          <img src="static/img/contact.avif" class="img-fluid imgg rounded">
+        </div>
+      </div>
+    </div>
+  </section> 
+
+  <!-- Social Media-->
+
+  <!--Social Media Section-->
+
+  <section id="social-media" >
+    <div class="container text-center">
+      <div class="row">
+        <p>FIND US ON SOCIAL MEDIA</p>
+
+        <div class="social-icons">
+          <a href="https://www.facebook.com/khojema.bharmal.5"><img src="static/img/linkedin-icon.png"> </a>
+          <a href="https://www.instagram.com/blue_ocean12222/"><img src="static/img/instagram-icon.png"> </a>
+          <a href="https://wa.me/09484881976"><img src="static/img/whatsapp-icon.png"> </a>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="footer   w-100" id="footer">
+
+    <div class="container">
+      <div class="row footer-content ">
+        <div class="col-12 col-lg-4 col-md-12 footer-title px-5 ">
+          <h3 class="footer-head ">GoMile</h3>
+          <p class="footer-para" style="font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 1.1rem;">
+            At GoMile you will find all the books of different categories. You can visit our store or you can also
+            buy your desired book online.
+          </p>
+
+        </div>
+
+        <div class="col-12 col-lg-4 col-md-12 footer-services  px-5 ">
+          <h3 class="footer-head"> SERVICES</h3>
+          <div class="footer-links footer-common-links"
+            style="font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 1.2rem;">
+
+            <a href="#category" class="text-decoration-none ">Categories</a>
+            <a href="#services" class="text-decoration-none">Services</a>
+
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 col-md-12 footer-other px-5 ">
+          <h3 class="footer-head"> LINKS</h3>
+          <div class="footer-links footer-common-links " style="font-size: 1.2rem;">
+
+            <a href="/login" class="text-decoration-none ">Login</a>
+            <a href="/register" class="text-decoration-none">Register</a>
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script src="static/js/script.js">
+  </script>
+
+</body>
+</html>
